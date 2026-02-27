@@ -12,7 +12,9 @@ import static org.assertj.core.api.AssertionsForClassTypes.assertThat;
 @DataJpaTest
 class BookRepositoryTest {
 
+
     @Autowired
+    // injects a book repository
     private BookRepository bookRepository;
 
     @Test
